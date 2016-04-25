@@ -2,62 +2,55 @@
 <html>
 <head>
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <title>Skills-HTML-CSS</title>
+  <title>Skills-HTML-CSS</title>
 
 </head>
 <body>
-<!-- your html goes here -->
-    <h1>Career-Opportunities</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+  <h1>Career-Opportunities</h1>
 
-    <h3>Interested in Applying?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
 
-    <div>
-        <form>
-          <label for="first-name">
-            First Name:
-              <input type="text" name="textfield">
-          </label>
-        </form>
-        
-        <form>
-          <label for="last-name">
-            Last Name:
-              <input type="text" name="textfield" id="last-name">
-          </label>
-        </form>
-        
-        <form>
-          <label for="salary-requirements">
-            Salary Requirements:
-              <input type="number" name="number">
-          </label>
-        </form>
-        
-        <form>
-          <label for="jobs">
-            Jobs:
-            <select name="select-jobs">
-              <option value="1">Select</option>
-              <option value="1">Software Engineer</option>
-              <option value="2">QA Engineer</option>
-              <option value="3">Product Manager</option>
-            </select>
-          </label>
-        </form>
-        
-        <form action="/application" method="POST">
-            <input type="submit" name="submit" value="Submit">
-        </form>
-    </div>
+  <h3>Interested in Applying?</h3>
+
+  <div>
+    <form action="/application" method="POST">
+      <label for="first-name">
+        First Name:
+          <input type="text" name="first-name">
+      </label>
+
+      <label for="last-name">
+        Last Name:
+          <input type="text" name="last-name" id="last-name">
+      </label>
+
+      <label for="salary-requirements">
+        Salary Requirements:
+          <input type="number" name="salary">
+      </label>
+
+      <label for="job-titles">
+        Jobs:
+          <select name="job-titles">
+            <option value="Select">Select</option>
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="QA Engineer">QA Engineer</option>
+            <option value="Product Manager">Product Manager</option>
+          </select>
+      </label>
+
+      <input type="submit" name="submit" value="Submit">
+
+    </form>
+  </div>
 </body>
 </html>
